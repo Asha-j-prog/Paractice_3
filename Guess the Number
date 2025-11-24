@@ -1,0 +1,26 @@
+import random
+
+Guess = random.randint(1, 10)
+
+while True:
+    num = int(input("Enter a number from 1 to 10: "))
+
+    if num > Guess:
+        print("Number is bigger")
+
+    elif num < Guess:
+        print("Number is smaller")
+
+    else:
+        print("Number is equal")
+        break
+
+
+C:\Users\Asha\PycharmProjects\PythonProject\.venv\Scripts\python.exe "C:\Users\Asha\PycharmProjects\PythonProject\PythonLearning\Guess random number.py" 
+Enter a number from 1 to 10: 1
+Number is smaller
+Enter a number from 1 to 10: 5
+Number is bigger
+Enter a number from 1 to 10: 10
+Number is bigger
+Enter a number from 1 to 10: 
