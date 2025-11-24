@@ -1,0 +1,30 @@
+    from random import choice, shuffle
+
+    words = ['python','javascript','java','pytest','automation','guvi','selenium']
+
+
+    original_word = choice(words)
+
+
+    letters = list(original_word)
+    shuffle(letters)
+    scrambled_word = ''.join(letters)
+
+    print("Scrambled word:", scrambled_word)
+
+
+    while True:
+        guess = input("Enter your guess: ")
+
+        if guess == original_word:
+            print("Your guess is right!")
+            break
+        else:
+            print("Wrong guess. Try again!")
+
+
+Scrambled word: ijacstrpva
+Enter your guess: 'javascript'
+Wrong guess. Try again!
+Enter your guess: javascript
+Your guess is right!
