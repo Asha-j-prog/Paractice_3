@@ -1,0 +1,20 @@
+num  = [10, 501, 22, 37,100,999,87,351]
+
+Even_Number = []
+Odd_Number = []
+
+for num in num:
+ if num % 2 == 0:
+    Even_Number.append(num)
+
+ else:
+    Odd_Number.append(num)
+
+print(Even_Number)
+print(Odd_Number)
+
+
+
+C:\Users\Asha\PycharmProjects\PythonProject\.venv\Scripts\python.exe "C:\Users\Asha\PycharmProjects\PythonProject\PythonLearning\Even or Odd findings.py" 
+[10, 22, 100]
+[501, 37, 999, 87, 351]
