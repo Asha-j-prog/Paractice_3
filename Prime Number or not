@@ -1,0 +1,24 @@
+num = [10, 501, 22, 37,100, 999, 87, 351]
+
+prime_numbers = []
+Not_prime_numbers = []
+
+for num in num:
+    if num <= 1:
+        Not_prime_numbers.append(num)
+
+    else:
+        for i in range (2, num):
+            if num % i == 0:
+             Not_prime_numbers.append(num)
+             break
+        else:
+            prime_numbers.append(num)
+
+print("Not_prime_numbers" , Not_prime_numbers)
+print("prime_numbers" , prime_numbers)
+
+
+
+Not_prime_numbers [10, 501, 22, 100, 999, 87, 351]
+prime_numbers [37]
