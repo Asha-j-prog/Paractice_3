@@ -1,0 +1,21 @@
+numbers = [10, 501, 22, 37, 100, 999, 87, 351]
+
+def is_happy(num):
+    visited = set()
+    while num != 1 and num not in visited:
+        visited.add(num)
+        num = sum(int(digit)**2 for digit in str(num))
+    return num == 1
+
+happy_numbers = []
+for n in numbers:
+    if is_happy(n):
+        happy_numbers.append(n)
+
+print("Happy Numbers:", happy_numbers)
+print("Count of Happy Numbers:", len(happy_numbers))
+
+
+C:\Users\Asha\PycharmProjects\PythonProject\.venv\Scripts\python.exe "C:\Users\Asha\PycharmProjects\PythonProject\PythonLearning\Happy Numbers.py" 
+Happy Numbers: [10, 100]
+Count of Happy Numbers: 2
