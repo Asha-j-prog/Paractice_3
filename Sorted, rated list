@@ -1,0 +1,7 @@
+numbers = [1, 2, 3, 4 ]
+print("Minimum Element:" , numbers[0])
+
+C:\Users\Asha\PycharmProjects\PythonProject\.venv\Scripts\python.exe "C:\Users\Asha\PycharmProjects\PythonProject\PythonLearning\Rated and sorted.py" 
+Minimum Element: 1
+
+Process finished with exit code 0
