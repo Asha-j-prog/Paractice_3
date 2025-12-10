@@ -1,0 +1,16 @@
+list1 = [1, 2, 3, 4, 5]
+list2 = [4, 5, 6, 7, 8]
+list3 = [1, 2, 3, 4, 5]
+
+duplicates = []
+for num in list1:
+    if num in list2 and num in list3:
+        duplicates.append(num)
+    else:
+        duplicates.append(num)
+
+print(duplicates)
+
+
+C:\Users\Asha\PycharmProjects\PythonProject\.venv\Scripts\python.exe "C:\Users\Asha\PycharmProjects\PythonProject\PythonLearning\set of lists.py" 
+[1, 2, 3, 4, 5]
